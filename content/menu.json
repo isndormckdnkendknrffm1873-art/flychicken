@@ -8,66 +8,81 @@
         {
           "name": "شاورما كبيرة",
           "price": 20000,
-          "image": "/images/screenshot_2026-06-17-17-15-38-817_com.beeorder.customer-edit.jpg"
+          "image": "/images/كبيرة.jpg"
         },
         {
           "name": "شاورما وسط",
-          "price": 14000
+          "price": 16000,
+          "image": "/images/وسط.jpg"
         },
         {
           "name": "شاورما صغيرة",
-          "price": 10000
+          "price": 12000,
+          "image": "/images/صغيرة.jpg"
         },
         {
           "name": "شاورما دبل",
-          "price": 25000
+          "price": 27000,
+          "bestseller": true,
+          "image": "/images/كبيرة.jpg"
         },
         {
           "name": "وجبة عربي",
-          "price": 35000
+          "price": 35000,
+          "image": "/images/عربي.jpg"
         },
         {
           "name": "وجبة عربي دبل",
           "price": 45000,
-          "bestseller": true
+          "bestseller": true,
+          "image": "/images/عربي-دبل.jpg"
         },
         {
           "name": "خرطوشة",
-          "price": 5000
+          "price": 6000,
+          "image": "/images/خرطوشة.jpg"
         },
         {
           "name": "فلاي شاورما",
-          "price": 40000
+          "price": 40000,
+          "image": "/images/فلاي-شاورما.jpg"
         },
         {
-          "name": "وجبة فرط",
-          "price": 35000
+          "name": "وجبة فرط200غ",
+          "price": 40000,
+          "image": "/images/وجبة-فرط-شاورما.jpg"
         },
         {
           "name": "وجبة خراطيش",
-          "price": 35000
+          "price": 40000,
+          "image": "/images/وجبة-خراطيش.jpg"
         },
         {
           "name": "فرط شاورما",
-          "customPrice": true
+          "customPrice": true,
+          "image": "/images/كيلو-شاورما.jpg"
         },
         {
           "name": "كيلو شاورما",
-          "price": 160000
+          "price": 150000,
+          "image": "/images/كيلو-شاورما.jpg"
         },
         {
           "name": "شاورما تشيز",
-          "price": 30000
+          "price": 27000,
+          "image": "/images/شاورما-تشيز.jpg"
         },
         {
           "name": "فتة شاورما",
-          "price": 30000
+          "price": 30000,
+          "image": "/images/فتة.jpg"
         },
         {
           "name": "شاورما صمون",
-          "price": 20000
+          "price": 22000
         }
-      ]
+      ],
+      "image": "/images/كبيرة.jpg"
     },
     {
       "id": "western",
@@ -81,45 +96,55 @@
           "items": [
             {
               "name": "كريسبي",
-              "price": 30000
+              "price": 35000,
+              "image": "/images/سندويش-كريسبي.jpg"
             },
             {
               "name": "زنجر",
-              "price": 30000
+              "price": 35000,
+              "image": "/images/سندويش-زنجر.jpg"
             },
             {
               "name": "كريزي زنجر",
-              "price": 35000
+              "price": 40000,
+              "image": "/images/كريزي-تشكن.jpg"
             },
             {
               "name": "سكالوب",
-              "price": 30000
+              "price": 35000,
+              "image": "/images/سكالوب.jpg"
             },
             {
               "name": "سوبريم",
-              "price": 30000
+              "price": 35000,
+              "image": "/images/سندويش-سوبريم.jpg"
             },
             {
               "name": "مكسيكي",
-              "price": 30000
+              "price": 35000,
+              "image": "/images/مكسيكي.jpg"
             },
             {
               "name": "فاهيتا",
-              "price": 30000
+              "price": 35000,
+              "image": "/images/فاهيتا.jpg"
             },
             {
               "name": "شيش طاووق",
-              "price": 30000
+              "price": 35000,
+              "image": "/images/شيش-طاووق.jpg"
             },
             {
               "name": "فرانشيسكو",
-              "price": 30000
+              "price": 35000
             },
             {
               "name": "فلاي تشكن",
-              "price": 35000
+              "price": 40000,
+              "image": "/images/فلاي-تشكن.jpg"
             }
-          ]
+          ],
+          "image": "/images/سندويش-زنجر.jpg"
         },
         {
           "id": "western_meals",
@@ -128,48 +153,58 @@
           "items": [
             {
               "name": "وجبة كريسبي",
-              "price": 55000,
-              "bestseller": true
+              "price": 60000,
+              "bestseller": true,
+              "image": "/images/وجبة-كريسبي.jpg"
             },
             {
               "name": "زنجر",
-              "price": 55000
+              "price": 60000
             },
             {
               "name": "سكالوب",
-              "price": 55000
+              "price": 60000,
+              "image": "/images/وجبة-سكالوب.jpg"
             },
             {
               "name": "سوبريم",
-              "price": 55000
+              "price": 60000,
+              "image": "/images/وجبة-سوبريم.jpg"
             },
             {
               "name": "مكسيكي",
-              "price": 55000
+              "price": 60000,
+              "image": "/images/وجبة-مكسيكي-2-.jpg"
             },
             {
               "name": "فاهيتا",
-              "price": 55000
+              "price": 60000,
+              "image": "/images/وجبة-فاهيتا.jpg"
             },
             {
               "name": "شيش طاووق",
-              "price": 55000
+              "price": 60000,
+              "image": "/images/وجبة-شيش.jpg"
             },
             {
               "name": "فرانشيسكو",
-              "price": 55000
+              "price": 60000
             },
             {
               "name": "لودد تشكن فرايز",
-              "price": 30000
+              "price": 60000,
+              "image": "/images/لودد-تشكن.jpg"
             },
             {
               "name": "ريزو كريسبي",
-              "price": 30000
+              "price": 35000,
+              "image": "/images/ريزو-1-.jpg"
             }
-          ]
+          ],
+          "image": "/images/وجبة-سكالوب.jpg"
         }
-      ]
+      ],
+      "image": "/images/سندويش-زنجر.jpg"
     },
     {
       "id": "burger",
@@ -178,62 +213,74 @@
       "items": [
         {
           "name": "برغر كلاسيك لحم",
-          "price": 35000
+          "price": 40000,
+          "image": "/images/برغر-لحم.jpg"
         },
         {
           "name": "بيغ برغر",
-          "price": 50000,
+          "price": 55000,
           "bestseller": true
         },
         {
           "name": "برغر دجاج",
-          "price": 30000
+          "price": 35000,
+          "image": "/images/برغر-دجاج.jpg"
         },
         {
           "name": "ستيكس برغر",
-          "price": 35000
+          "price": 40000,
+          "image": "/images/ستيكس-برغر.jpg",
+          "customPrice": false
         },
         {
           "name": "فلاي برغر",
-          "price": 40000
+          "price": 45000,
+          "image": "/images/فلاي-برغر.jpg"
         }
-      ]
+      ],
+      "image": "/images/برغر-لحم.jpg"
     },
     {
       "id": "chicken",
-      "title": "الفروج والمشوي",
+      "title": "الفروج",
       "icon": "fa-drumstick-bite",
       "items": [
         {
           "name": "فروج بروستد",
-          "price": 100000,
-          "bestseller": true
+          "price": 110000,
+          "bestseller": true,
+          "image": "/images/فروج-بروستد.jpg"
         },
         {
           "name": "نصف فروج بروستد",
-          "price": 55000
+          "price": 55000,
+          "image": "/images/نصف-فروج-بروستد.jpg"
         },
         {
           "name": "جوانح بوفالو",
-          "price": 30000
+          "price": 35000,
+          "image": "/images/وجبة-جوانح.jpg"
         },
         {
           "name": "جوانح هاني ماسترد",
-          "price": 30000
+          "price": 35000,
+          "image": "/images/وجبة-جوانح.jpg"
         },
         {
           "name": "جوانح باربكيو",
-          "price": 30000
+          "price": 35000,
+          "image": "/images/وجبة-جوانح.jpg"
         },
         {
-          "name": "فروج المشوي",
+          "name": "فروج مشوي",
           "price": 100000
         },
         {
           "name": "نصف فروج مشوي",
           "price": 55000
         }
-      ]
+      ],
+      "image": "/images/فروج-بروستد.jpg"
     },
     {
       "id": "potatoes",
@@ -242,29 +289,36 @@
       "items": [
         {
           "name": "سندويش بطاطا",
-          "price": 15000
+          "price": 15000,
+          "image": "/images/ساندويش-بطاطا.jpg"
         },
         {
-          "name": "سندويش تشيز بطاطا",
-          "price": 20000
+          "name": "ساندويش تشيز بطاطا",
+          "price": 20000,
+          "image": "/images/سلندويش-تشز-بطاطا.jpg"
         },
         {
           "name": "صحن بطاطا",
-          "price": 30000
+          "price": 30000,
+          "image": "/images/علبة-بطاطا.jpg"
         },
         {
           "name": "صحن تشيز بطاطا",
-          "price": 40000
+          "price": 40000,
+          "image": "/images/صحن-تشيز-بطاطا.jpg"
         },
         {
           "name": "صحن بطاطا كبير",
-          "price": 50000
+          "price": 50000,
+          "image": "/images/علبة-بطاطا.jpg"
         },
         {
           "name": "علبة بطاطا شخصية",
-          "price": 15000
+          "price": 15000,
+          "image": "/images/علبة-بطاطا.jpg"
         }
-      ]
+      ],
+      "image": "/images/سلندويش-تشز-بطاطا.jpg"
     },
     {
       "id": "salads",
@@ -278,11 +332,13 @@
           "items": [
             {
               "name": "سلطة سيزر",
-              "price": 20000
+              "price": 20000,
+              "image": "/images/سلطة-سيزر.jpg"
             },
             {
               "name": "سلطة روسية",
-              "price": 5000
+              "price": 5000,
+              "image": "/images/سلطة-كولسلو.jpg"
             }
           ]
         },
@@ -293,21 +349,26 @@
           "items": [
             {
               "name": "5 اصابع موزاريلا",
-              "price": 20000
+              "price": 20000,
+              "image": "/images/اصابع-مزاريلا.jpg"
             },
             {
               "name": "معكرونة باردة",
-              "price": 5000
+              "price": 5000,
+              "image": "/images/معكرونة-باردة.jpg"
             },
             {
               "name": "محمرة",
-              "price": 5000
+              "price": 5000,
+              "image": "/images/محمرة.jpg"
             },
             {
               "name": "اصبع موزاريلا",
-              "price": 4000
+              "price": 4000,
+              "image": "/images/اصابع-مزاريلا.jpg"
             }
-          ]
+          ],
+          "image": "/images/اصابع-مزاريلا.jpg"
         },
         {
           "id": "sauces",
@@ -316,19 +377,23 @@
           "items": [
             {
               "name": "كريم توم",
-              "price": 3000
+              "price": 3000,
+              "image": "/images/توم.jpg"
             },
             {
               "name": "مايونيز غربي",
-              "price": 3000
+              "price": 3000,
+              "image": "/images/مايونيز-غربي.jpg"
             },
             {
               "name": "كوكتيل",
-              "price": 3000
+              "price": 3000,
+              "image": "/images/كوكتيل.jpg"
             },
             {
               "name": "هاني ماسترد",
-              "price": 3000
+              "price": 3000,
+              "image": "/images/هاني-ماسترد.jpg"
             },
             {
               "name": "حد",
@@ -338,9 +403,11 @@
               "name": "توم حد",
               "price": 3000
             }
-          ]
+          ],
+          "image": "/images/توم.jpg"
         }
-      ]
+      ],
+      "image": "/images/اصابع-مزاريلا.jpg"
     },
     {
       "id": "drinks",
@@ -349,55 +416,36 @@
       "items": [
         {
           "name": "بيبسي وسط",
-          "price": 9000
+          "price": 10000
         },
         {
           "name": "سفن وسط",
-          "price": 9000
+          "price": 10000
         },
         {
           "name": "بيبسي عائلي",
-          "price": 16000
+          "price": 17000
         },
         {
           "name": "سفن عائلي",
-          "price": 16000
+          "price": 17000
         },
         {
           "name": "بيبسي تنك",
-          "price": 6000
+          "price": 7000,
+          "bestseller": true
         },
         {
           "name": "سفن تنك",
-          "price": 6000
+          "price": 7000
         },
         {
           "name": "عيران",
-          "price": 4000
+          "price": 5000
         },
         {
           "name": "مياه صغيرة",
           "price": 3000
-        },
-        {
-          "name": "راني",
-          "price": 6000
-        },
-        {
-          "name": "كينزا سودا",
-          "price": 5000
-        },
-        {
-          "name": "كينزا دايت",
-          "price": 5000
-        },
-        {
-          "name": "كينزا حمضيات",
-          "price": 5000
-        },
-        {
-          "name": "استرو",
-          "price": 4000
         }
       ]
     },
