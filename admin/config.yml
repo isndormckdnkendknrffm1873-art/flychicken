@@ -1,0 +1,55 @@
+backend:
+  name: git-gateway
+  branch: main # تأكد أن اسم الفرع في جيتهاب هو main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "site_info"
+    label: "إعدادات الموقع والتواصل"
+    file: "content/site.json"
+    fields:
+      - {label: "رقم الهاتف", name: "phone", widget: "string"}
+      - {label: "رابط فيسبوك", name: "facebook", widget: "string"}
+      - {label: "رابط انستغرام", name: "instagram", widget: "string"}
+
+  - name: "menu_data"
+    label: "المنيو (الأقسام والأصناف)"
+    file: "content/menu.json"
+    fields:
+      - label: "الأقسام الرئيسية"
+        name: "categories"
+        widget: "list"
+        fields:
+          - {label: "المعرف (بالانجليزي بدون مسافات)", name: "id", widget: "string"}
+          - {label: "عنوان القسم", name: "title", widget: "string"}
+          - {label: "الأيقونة (مثال: svg_shawarma أو fa-burger)", name: "icon", widget: "string"}
+          
+          # الأصناف المباشرة
+          - label: "الأصناف"
+            name: "items"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "اسم الصنف", name: "name", widget: "string"}
+              - {label: "السعر", name: "price", widget: "number", required: false}
+              - {label: "أكثر مبيعاً؟", name: "bestseller", widget: "boolean", default: false, required: false}
+              - {label: "تحديد سعر مخصص (للفَرط)؟", name: "customPrice", widget: "boolean", default: false, required: false}
+          
+          # الأقسام الفرعية (مثل ركن الغربي أو السلطات)
+          - label: "الأقسام الفرعية"
+            name: "subCategories"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "المعرف", name: "id", widget: "string"}
+              - {label: "العنوان", name: "title", widget: "string"}
+              - {label: "الأيقونة", name: "icon", widget: "string"}
+              - label: "الأصناف الفرعية"
+                name: "items"
+                widget: "list"
+                fields:
+                  - {label: "اسم الصنف", name: "name", widget: "string"}
+                  - {label: "السعر", name: "price", widget: "number", required: false}
+                  - {label: "أكثر مبيعاً؟", name: "bestseller", widget: "boolean", default: false, required: false}
