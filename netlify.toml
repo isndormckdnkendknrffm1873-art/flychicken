@@ -2,6 +2,16 @@
   publish = "."
   command = ""
 
+# منع الكاش عن ملفات البيانات والمنيو لضمان ظهور التحديثات للناس فوراً
+[[headers]]
+  for = "/content/*.json"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+    Pragma = "no-cache"
+    Expires = "0"
+    Access-Control-Allow-Origin = "*"
+
+# إعدادات عامة لباقي ملفات الموقع
 [[headers]]
   for = "/*"
   [headers.values]
