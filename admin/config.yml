@@ -1,12 +1,9 @@
-# ----------------------------------------------------
-# كود الربط المطلوب مع Netlify Git Gateway
-# ----------------------------------------------------
 backend:
   name: git-gateway
   branch: main # تأكد أن هذا هو اسم الفرع الرئيسي لديك على جيتهاب
 
 # ----------------------------------------------------
-# إعدادات الوسائط والمجلدات
+# إعدادات مجلد الصور (حيث سيتم حفظ الصور المرفوعة)
 # ----------------------------------------------------
 media_folder: "images"
 public_folder: "/images"
@@ -34,6 +31,7 @@ collections:
           - {label: "المعرف (بالانجليزي بدون مسافات)", name: "id", widget: "string"}
           - {label: "عنوان القسم", name: "title", widget: "string"}
           - {label: "الأيقونة (مثال: svg_shawarma أو fa-burger)", name: "icon", widget: "string"}
+          - {label: "صورة القسم الرئيسي (اختياري)", name: "image", widget: "image", required: false} # زر رفع صورة القسم
           
           # الأصناف المباشرة
           - label: "الأصناف"
@@ -43,6 +41,7 @@ collections:
             fields:
               - {label: "اسم الصنف", name: "name", widget: "string"}
               - {label: "السعر", name: "price", widget: "number", required: false}
+              - {label: "صورة الصنف (اختياري)", name: "image", widget: "image", required: false} # زر رفع صورة الصنف
               - {label: "أكثر مبيعاً؟", name: "bestseller", widget: "boolean", default: false, required: false}
               - {label: "تحديد سعر مخصص (للفَرط)؟", name: "customPrice", widget: "boolean", default: false, required: false}
           
@@ -55,10 +54,12 @@ collections:
               - {label: "المعرف", name: "id", widget: "string"}
               - {label: "العنوان", name: "title", widget: "string"}
               - {label: "الأيقونة", name: "icon", widget: "string"}
+              - {label: "صورة القسم الفرعي (اختياري)", name: "image", widget: "image", required: false} # زر رفع صورة القسم الفرعي
               - label: "الأصناف الفرعية"
                 name: "items"
                 widget: "list"
                 fields:
                   - {label: "اسم الصنف", name: "name", widget: "string"}
                   - {label: "السعر", name: "price", widget: "number", required: false}
+                  - {label: "صورة الصنف الفرعي (اختياري)", name: "image", widget: "image", required: false} # زر رفع صورة الصنف الفرعي
                   - {label: "أكثر مبيعاً؟", name: "bestseller", widget: "boolean", default: false, required: false}
