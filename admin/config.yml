@@ -1,10 +1,19 @@
+# ----------------------------------------------------
+# كود الربط المطلوب مع Netlify Git Gateway
+# ----------------------------------------------------
 backend:
   name: git-gateway
-  branch: main # تأكد أن اسم الفرع في جيتهاب هو main
+  branch: main # تأكد أن هذا هو اسم الفرع الرئيسي لديك على جيتهاب
 
+# ----------------------------------------------------
+# إعدادات الوسائط والمجلدات
+# ----------------------------------------------------
 media_folder: "images"
 public_folder: "/images"
 
+# ----------------------------------------------------
+# الأقسام والبيانات (Collections)
+# ----------------------------------------------------
 collections:
   - name: "site_info"
     label: "إعدادات الموقع والتواصل"
@@ -37,7 +46,7 @@ collections:
               - {label: "أكثر مبيعاً؟", name: "bestseller", widget: "boolean", default: false, required: false}
               - {label: "تحديد سعر مخصص (للفَرط)؟", name: "customPrice", widget: "boolean", default: false, required: false}
           
-          # الأقسام الفرعية (مثل ركن الغربي أو السلطات)
+          # الأقسام الفرعية
           - label: "الأقسام الفرعية"
             name: "subCategories"
             widget: "list"
