@@ -192,7 +192,7 @@
             },
             {
               "name": "لودد تشكن فرايز",
-              "price": 60000,
+              "price": 35000,
               "image": "/images/لودد-تشكن.jpg"
             },
             {
@@ -316,6 +316,12 @@
           "name": "علبة بطاطا شخصية",
           "price": 15000,
           "image": "/images/علبة-بطاطا.jpg"
+        },
+        {
+          "bestseller": false,
+          "customPrice": false,
+          "name": "لودد فرايز",
+          "price": 25000
         }
       ],
       "image": "/images/سلندويش-تشز-بطاطا.jpg"
