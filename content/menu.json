@@ -246,8 +246,8 @@
       "icon": "fa-drumstick-bite",
       "items": [
         {
-          "name": "فروج بروستد",
-          "price": 110000,
+          "name": " فروج بروستد عرض",
+          "price": 90000,
           "bestseller": true,
           "image": "/images/فروج-بروستد.jpg"
         },
